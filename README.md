@@ -2,29 +2,28 @@
 
 Introducing the universal clear command!
 
-Say goodbye to having to define 'cls' and 'clear' separately for different operating systems. Embrace change with the newly released clear-command, which provides a UNIVERSAL clear command for all to use!
+Say goodbye to having to define 'cls' and 'clear' separately for different operating systems. Embrace change with the newly released universalclear, which provides a UNIVERSAL clear command for all to use!
 
 ## Installation
 
-Install via pip! - https://pypi.org/project/clear-command/
+Install via pip! - https://pypi.org/project/universalclear/
+
 ```bash
-pip install clear-command
+pip install universalclear
 ```
 
- ## Example Usage
- 
+## Example Usage
+
 ```python
 import time
-from clear_command import clearCommand
+from universalclear import clear
 
 def main():
-clear = clearCommand()
-print(f"Command to clear console: {command}")
+    print(f"Command to clear console: {command}")
 
-time.sleep(2.5)
+    time.sleep(2.5)
 
-import os
-os.system(clear)
+        clear()
 
 if **name** == "**main**":
 main()
@@ -32,4 +31,6 @@ main()
 
 This script will print the command to clear your console, then wait 2.5 seconds and clear the console.
 
-## Developed by Malik Hassan with much love!
+## Developed by Malik Hassan with much love! <3
+
+## Previously clear-command but name changed due to import issues.
