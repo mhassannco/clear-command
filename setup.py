@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="clear-command",
-    version='0.1',
+    version='0.5',
     author="Malik Hassan",
     author_email="<malikkhabhassan@gmail.com>",
     packages=find_packages(),
