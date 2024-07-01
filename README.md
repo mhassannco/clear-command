@@ -19,14 +19,14 @@ import time
 from universalclear import clear
 
 def main():
-    print(f"Command to clear console: {command}")
+    print("Clearing console in 2.5 seconds!")
 
     time.sleep(2.5)
 
-        clear()
+    clear()
 
-if **name** == "**main**":
-main()
+if __name__ == "__main__":
+    main()
 ```
 
 This script will print the command to clear your console, then wait 2.5 seconds and clear the console.
