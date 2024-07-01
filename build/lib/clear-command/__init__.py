@@ -1,1 +1,1 @@
-from main import clearCommand
+from .main import clearCommand
